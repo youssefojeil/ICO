@@ -5,6 +5,7 @@ const ALCHEMY_API_KEY_URL = process.env.ALCHEMY_API_KEY_URL;
 
 const GOERLI_PRIVATE_KEY = process.env.GOERLI_PRIVATE_KEY;
 
+
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.17",

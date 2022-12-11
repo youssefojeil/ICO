@@ -5,7 +5,7 @@ const {CRYPTO_DEVS_NFT_CONTRACT_ADDRESS} = require("../constants");
 
 async function main() {
 
-  const cryptoDevsTokenContract = await ethers.getContractFactory("CryptoDevsToken");
+  const cryptoDevsTokenContract = await ethers.getContractFactory("CryptoDevToken");
 
   console.log(cryptoDevsTokenContract);
   const deploycryptoDevsTokenContract = await cryptoDevsTokenContract.deploy(CRYPTO_DEVS_NFT_CONTRACT_ADDRESS);
